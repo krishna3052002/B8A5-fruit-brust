@@ -45,9 +45,9 @@
     </style>
 </head>
 
-<body class="font-lato ml-4 mr-4 mt-8 lg:mr-40 lg:ml-40 lg:mt-12">
+<body class="font-lato ml-2 mr-2 mt-8 lg:mr-40 lg:ml-40 lg:mt-12">
     <header>
-        <nav>
+        <nav class="container mx-auto">
             <div class="navbar lg:bg-nav-background rounded-full flex items-center lg:pr-10 lg:pt-5 lg:pb-5 lg:pl-10">
                 <div class="navbar-start">
                     <a class="btn btn-ghost normal-case text-xl lg:hidden items-center"><img class=" w-13 h-11"
@@ -101,6 +101,59 @@
                 </div>
             </div>
         </nav>
+         <div class=" mt-10 carousel w-[350px] h-[200px] lg:w-full lg:h-auto container mx-auto ">
+            <div id="slide1" class="carousel-item relative  w-full h-auto bg-[url('images/banner1.png')] bg-cover rounded-xl">
+                <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center ">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <p class=" text-2xl lg:text-7xl text-center text-[#FFF] mb-0">Exotic tastes at your <br>door step <br><span
+                            class=" mt-0 text-sm lg:text-xl text-center text-[#FFF]">We supply highly quality organic
+                            products</span><br>
+                        <span><button class="btn btn-primary bg-[#F85559] border-0 ">Shop Now</button></span>
+                    </p>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative  w-full h-auto bg-[url('images/banner2.png')] bg-cover rounded-xl">
+
+                <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <p class=" text-2xl lg:text-7xl text-center text-[#FFF] mb-0">Exotic tastes at your <br>door step <br><span
+                            class=" mt-0 text-xl text-center text-[#FFF]">We supply highly quality organic
+                            products</span><br>
+                        <span><button class="btn btn-primary bg-[#F85559] border-0 ">Shop Now</button></span>
+                    </p>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3"  class="carousel-item relative  w-full h-auto bg-[url('images/banner3.png')] bg-cover rounded-xl">
+
+                <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <p class=" text-2xl lg:text-7xl text-center text-[#FFF] mb-0">Exotic tastes at your <br>door step <br><span
+                            class=" mt-0 text-xl text-center text-[#FFF]">We supply highly quality organic
+                            products</span><br>
+                        <span><button class="btn btn-primary bg-[#F85559] border-0 ">Shop Now</button></span>
+                    </p>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4"  class="carousel-item relative  w-full h-auto bg-[url('images/banner4.png')] bg-cover rounded-xl">
+                <img src="/images/banner4.png" class="w-full" />
+                <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <p class=" text-2xl lg:text-7xl text-center text-[#FFF] mb-0">Exotic tastes at your <br>door step <br><span
+                            class=" mt-0 text-xl text-center text-[#FFF]">We supply highly quality organic
+                            products</span><br>
+                        <span><button class="btn btn-primary bg-[#F85559] border-0 ">Shop Now</button></span>
+                    </p>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
